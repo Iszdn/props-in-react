@@ -1,0 +1,27 @@
+.slidshow{
+    left: 20%;
+    position: absolute;
+}
+.slider{
+display: flex;
+
+}
+.slide0{
+width: 600px;
+}
+.slide1{
+    width: 200px;
+
+}
+.slide2{
+    width: 200px;
+
+}
+.slide3{
+    width: 200px;
+
+}
+
+img{
+    width: 100%;
+}

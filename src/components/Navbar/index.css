@@ -1,0 +1,92 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+}
+.navbar{
+    padding: 2rem 4rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.titleNavH2{
+    font-size: 36px;
+    font-family: '';
+}
+.titleNav{
+    color: #ffc515;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+  color: inherit;
+}
+.fa-bars{
+    display: none;
+}
+.colored-link{
+    color: #ffc515;
+}
+.reservation{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.reservation-color{
+    color:#ffc515 ;
+}
+.fa-phone{
+    color: white;
+}
+.num{
+    color: white;
+}
+.navbar-media{
+    display: none;
+}
+.open{
+    display: block ;
+}
+.close{
+    display: none;
+}
+.fa-x{
+    font-size: 24px;
+}
+@media screen and (max-width:1500px){
+    .navbar{
+        padding: 2rem 2rem;
+    }
+}
+@media screen and (max-width:992px) {
+    .reservation{
+        display: none;
+    }
+    .navbar{
+        padding: 2rem 2rem;
+    }
+
+}
+@media screen and (max-width:750px) {
+    .navigation{
+        display: none;
+    }
+    .fa-bars{
+        color: white;
+        display: block;
+        align-items: center;
+        font-size: 24px;
+    }
+}
